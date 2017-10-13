@@ -21,6 +21,7 @@ b=[9,8,7; 6,5,4; 3,2,1];
 c=a.+b;						% .+ element-wise addition
 c=a.-b;						% .- element-wise subtraction
 c=a.*b;						% .* element-wise multiplication
+c=a./b; 					% ./ element-wise division
 
 
 
@@ -29,23 +30,24 @@ c=a.*b;						% .* element-wise multiplication
 a=[9,8,7,6,5,4,3,2,1];
 b=[1,2,3,4,5,6,7,8,9];
 
-find(a=8); 			% returns index of first occurrence
-length(a);			% returns length of vector
+x=find(a=8); 			% returns index of first occurrence
+x=length(a);			% returns length of vector
 
-sort(a);			% sorts vector
-max(a);				% finds max element
-min(a);				% finds min element
-sum(a);				% returns sum of all elements
+x=sort(a);			% sorts vector
+x=max(a);				% finds max element
+x=min(a);				% finds min element
+x=sum(a);				% returns sum of all elements
 
-dot(a,b); 			% returns dot product of a,b
-cross(a,b);			% returns cross product of a,b
+x=dot(a,b); 			% returns dot product of a,b
+x=cross(a,b);			% returns cross product of a,b
 
 
 % matrix operations
 % ***************************************
 a=[1,2,3; 4,5,6; 7,8,9];
-inv(a); 			% inverse of a matrix
-transpose(a);		% transpose of a matrix
-rank(a); 			% returns rank of matrix [numberical analysis]
+x=size(a); 			% dimensions
+x=inv(a); 			% inverse of a matrix
+x=transpose(a);		% transpose of a matrix
+x=rank(a); 			% returns rank of matrix [numberical analysis]
 x=eye(3); 			% identity matrix of size 3*3
 x=zero(3); 			% zero matrix of size 3*3

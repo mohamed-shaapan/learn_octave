@@ -14,3 +14,15 @@ x=true;						% Bool
 
 % number operations
 % ***************************************
+c=a+b;
+c=a-b;
+c=a*b;
+c=a/b;
+c=a^2;
+
+x=sqrt(a);					% square root
+x=nthroot(a,n);				% nth root of number a
+x=log(a);					% ln(a)
+x=sin(a);					% sin(a), cos(a), tan(a)
+
+
