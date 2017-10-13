@@ -1,0 +1,35 @@
+% useful commands
+% ***************************************
+clc 				% clears console screen
+clear 				% deletes user defined variables (x, name, salary, ...)
+who					% displays all current user created variables
+
+console commands	(cd, pwd, ls/dir, mkdir, ...)
+
+
+% file.m (.m files)
+% ***************************************
+script.m 			% stores your program in a file to run later
+function.m 			% for storing functions
+
+
+% running your program
+% ***************************************
+1. open your terminal (or octave CLI)(remember to add octave to your path)
+2. cd to the location of your "main.m"
+3. type "main" to run your script
+
+
+% common stuff
+% ***************************************
+% single line comment
+%{
+	multi-line comment
+	haha
+	another line
+}%
+
+use semi-colon ";" at end of line to supress ocatve from printing this variable/result
+
+
+
